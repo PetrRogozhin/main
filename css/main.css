@@ -203,7 +203,7 @@ a {
           align-items: center;
 }
 
-.main-text-title {
+.main-text-title span {
   background: linear-gradient(-70deg, #EE7752, #E73C7e, #23A6D5, #23D5AB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -952,6 +952,17 @@ input:checked ~ .tab-content {
 
 .contacts-left {
   width: 400px;
+}
+
+.link-wrapper:hover .back-a {
+  width: 100%;
+}
+.link-wrapper .back-a {
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 ._error {
